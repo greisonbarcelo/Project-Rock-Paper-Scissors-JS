@@ -61,11 +61,14 @@ function playGame(){
         const playerSelection = prompt('Choose your hand, rock paper scissors shoot!');
         const computerSelection = getComputerChoice();
         playRound(playerSelection, computerSelection);
+
     }
+
     console.log(`Player Score: ${playerScore}`);
     console.log(`Computer Score: ${computerScore}`);
     console.log(computeScore(playerScore, computerScore));
     if(confirm('Play Again?')){
+        playerScore = 0; computerScore = 0
         console.clear();
         playGame();
     } 
