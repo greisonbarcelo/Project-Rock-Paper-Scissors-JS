@@ -22,7 +22,7 @@ paper < scissor
 
 > if both uses same choice = tie
 
-## build with
+## built with
 * html
 * css
 * javascript
