@@ -1,28 +1,27 @@
-# Rock Paper Scissors Game
+# Rock-Paper-Scissors
 
-## pseudo code
-> choices are: rock, paper, scissor  
-  
-* get user choice using getHumanChoice using prompt to be stored in a parameter humanChoice  
-* get computer random choice using getComputerChoice function to be returned to computerChoice parameter  
-* compare user choice against computer choice  
-* create function playRound() to initiate game use parameters of humanChoice and computerChoice  
-* make user's answer case INsensitive (.toLowerCase)  
-* print winner of a round with string in the console representing the round winner, such as: “You lose! Paper beats Rock”.  
-* add score to whoever wins, humanScore and computerScore  
-* add stopping function to whoever have the highest score after 5 rounds then declare the winner to console log  
-* create playGame() function and should have playRound() inside of it  
+Welcome to the Rock-Paper-Scissors project! This is a simple yet fun implementation of the classic game using JavaScript, HTML, and CSS. Challenge your friends or play against the computer!
 
-### choices logic
-logic: 
-rock > scissor
-rock < paper
-paper > rock
-paper < scissor
+## Features
 
-> if both uses same choice = tie
+- **Player vs. Computer Mode:** Play against the computer.
+- **Score Tracking:** Keeps track of your wins, losses, and ties.
+- **Responsive Design:** Works on both desktop and mobile devices.
 
-## built with
-* html
-* css
-* javascript
+## How to Play
+
+1. **Set Up:** Open the `index.html` file in your web browser.
+2. **Choose Your Move:** Click on Rock, Paper, or Scissors to make your move.
+3. **Computer's Move:** The computer will randomly select its move.
+4. **Result:** The result will be displayed along with updated scores.
+
+## Project Structure
+
+```plaintext
+rock-paper-scissors/
+├── css/
+│   ├── styles.css
+├── js/
+│   ├── script.js
+├── index.html
+
